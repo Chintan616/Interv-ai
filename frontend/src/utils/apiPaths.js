@@ -1,6 +1,4 @@
-
-// export const BASE_URL = "https://mockcrux-backend.onrender.com" || "http://localhost:8000"
-export const BASE_URL = "http://localhost:3000"
+export const BASE_URL = import.meta.env.MODE === "development" ? "http://localhost:3000" : "https://interv-ai-backend-kbcm.onrender.com"
 
 export const API_PATHS = {
     AUTH: {
