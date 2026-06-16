@@ -101,7 +101,7 @@ Before you begin, ensure you have the following installed:
 
 ```bash
 git clone https://github.com/chintankasundra/Interv-ai.git
-cd Interv.ai
+cd Interv-ai
 ```
 
 #### 2. Backend Setup
